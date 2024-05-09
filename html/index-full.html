@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMA GHEE</title>
+    <link rel="icon" type="image/x-icon" href="uma ghee logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Caveat:wght@700&family=Tektur:wght@600&family=Montserrat:wght@100;300;400;900&family=Poppins:wght@100;300;400;700;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!-- StyleSheets -->
+
+    <!-- Animation On slide AOS cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Swiper Local Style -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!-- BootStrap 5.3 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- FontAwesome script -->
+    <script src="https://kit.fontawesome.com/056a4e962f.js" crossorigin="anonymous"></script>
+
+    
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+
+<style>
+    
+ html,
+ 
+ .carousel,
+ .item,
+ .active {
+     height: 100%;
+ }
+ 
+ .carousel-inner {
+     height: 100%;
+ }
+ 
+ /* Background images are set within the HTML using inline CSS, not here */
+ 
+ .fill {
+     width: 100%;
+     height: 100%;
+     background-position: center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+ }
+ 
+ footer {
+     margin: 50px 0;
+ }
+ .product-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+
+.product-item img {
+  width: 60%; /* Adjust the width as needed */
+  height: 10%; /* Maintain aspect ratio */
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+  transform: scale(1.1);
+}
+
+.product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+}
+
+.product-item:hover .product-overlay {
+  opacity: 1;
+}
+
+.fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .fa:hover {
+            text-decoration: none; 
+        } .footer {
+            color: #fff;
+            padding: 20px 0;
+        }
+</style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-md bg-warning p-0">
+                <div class="container-fluid ">
+
+                    <a class="navbar-brand  " href="#">
+                        <img src="uma ghee logo.png" alt="UMa Ghee"width="110"height="200">
+                    </a>
+
+                    <button class="navbar-toggler m-2 p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutUs">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#special-offers">Special Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#products">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image-container a" style="background-image: url('organic-food-cover.jpg')";></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-container b" style="background-image: url('organic-food-cover-1.jpg');"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-container a" style="background-image: url('organic-food-cover-3.jpg');"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-container b" style="background-image: url('organic-food-cover-2.jpg');"></div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- About us setion -->
+    <section id="aboutUs" >
+        <div class="container">
+            <div class="row m-3 ">
+                <h1 class="text-center section-heading" data-aos="fade-in" data-aos-duration="2000">About Us</h1>
+                <p class="m-0">
+                <div class="text lead "></div>
+                </p>
+
+                <div class="col-lg-4 col-sm-12 p-3 ">
+                    <div class="bg-warning p-2 rounded shadow h-sticker" data-aos="flip-down" data-aos-duration="1500">
+                        <h2 class="text-center text-danger">Mission</h2>
+                        <p class="text-center text-justify">Our mission is to bring the essence of 
+                            organic food to your homes. We strive to be a brand that not only nourishes your body but
+                            also celebrates the rich cultural of TamilNadu.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 p-3 ">
+                    <div class="bg-warning p-2 rounded shadow h-sticker" data-aos="flip-up" data-aos-duration="2500">
+                        <h2 class="text-center text-danger">Vision</h2>
+                        <p class="text-center text-justify">Our vision is to become the leading provider of organic food
+                            in TamilNadu, recognized for our commitment to quality, sustainability, and customer
+                            satisfaction.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 p-3">
+                    <div class="bg-warning p-2 rounded shadow h-sticker" data-aos="flip-down" data-aos-duration="1500">
+                        <h2 class="text-center text-danger">Achievements</h2>
+                        <p class="text-center text-justify">Trusted by Thousands: Over the years, Uma Ghee has
+                            gained the trust and loyalty of thousands of customers who appreciate the quality and
+                            authenticity of our products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="special-offers">
+        
+        <div class="swiper-container-offers">
+            <h1 class="text-center section-heading" data-aos="fade-in" data-aos-duration="2000">Special Offers</h1>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="card" style="width: 500px;">
+
+                        <img src="ghee_discount.png" class="card-img-top" alt="...">
+                        <div class="card-body  text-center">
+                            <h5 class="card-title blink-hard text-warning"> Save 100 Rs</h5>
+                            <p class="card-text">BUY 4KG GHEE TO AVAIL DISCOUNT</p>
+
+                            <a href="https://wa.me/919790264009?text=I%20Need%204Kg%20Ghee%20Discounted"
+                                class="btn btn-lg btn-success "> Avail Now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 500px;">
+                        <img src="ghee_discount.png" class="card-img-top" alt="...">
+                        <div class="card-body  text-center">
+                            <h5 class="card-title blink-hard text-warning">Save 15 Rs</h5>
+                            <p class="card-text"> BUY 2KG GHEE TO AVAIL DISCOUNT</p>
+
+                            <a href="https://wa.me/919790264009?text=I%20Need%201Kg%20Desi%20Ghee"
+                                class="btn btn-lg btn-success "> Avail Now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 500px;">
+                        <img src="ghee_discount.png" class="card-img-top" alt="...">
+                        <div class="card-body  text-center">
+                            <h5 class="card-title blink-hard text-warning">Save 25 Rs</h5>
+                            <p class="card-text">BUY 3KG GHEE TO AVAIL DISCOUNT</p>
+                            <a href="https://wa.me/919790264009?text=I%20Need%201Kg%20Desi%20Ghee"
+                                class="btn btn-lg btn-success "> Avail Now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="width: 500px;">
+                        <img src="ghee_discount.png" class="card-img-top" alt="...">
+                        <div class="card-body  text-center">
+                            <h5 class="card-title blink-hard text-warning">Save 100 Rs</h5>
+                            <p class="card-text">BUY 5KG GHEE TO AVAIL DISCOUNT</p>
+                            <a href="https://wa.me/919790264009?text=I%20Need%201Kg%20Desi%20Ghee"
+                                class="btn btn-lg btn-success "> Avail Now </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    
+<div class="container"><br>
+    <h1 class="text-center section-heading" data-aos="fade-in" data-aos-duration="2000" style="color: rgb(165, 4, 128);">Our Ghee Products</h1>
+    
+    <div id="product-slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-3 d-flex justify-content-center align-items-center">
+              <div class="product-item">
+                <img src="images/ghee1-removebg-preview.png" alt="Ghee Product 1" class="img-fluid">
+                <div class="product-overlay">
+                  <h4>50 ml</h4>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the following structure for other products -->
+            <div class="col-lg-3 d-flex justify-content-center align-items-center">
+              <div class="product-item">
+                <img src="images/ghee5-removebg-preview.png" alt="Ghee Product 2" class="img-fluid">
+                <div class="product-overlay">
+                  <h4>100 ml</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="product-item">
+                  <img src="images/ghee2-removebg-preview.png" alt="Ghee Product 2" class="img-fluid">
+                  <div class="product-overlay">
+                    <h4>200 ml</h4>
+                  </div>
+                </div>
+              </div>
+            <div class="col-lg-3 d-flex justify-content-center align-items-center">
+              <div class="product-item">
+                <img src="images/ghee4-removebg-preview.png" alt="Ghee Product 3" class="img-fluid">
+                <div class="product-overlay">
+                  <h4>1000 ml</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="product-item">
+                  <img src="images/ghee3-removebg-preview.png" alt="Ghee Product 3" class="img-fluid">
+                  <div class="product-overlay">
+                    <h4>10 ml</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="product-item">
+                  <img src="images/ghee7.png" alt="Ghee Product 3" class="img-fluid">
+                  <div class="product-overlay">
+                    <h4>15kg Tin</h4>
+                  </div>
+                </div>
+              </div>
+            <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                <div class="product-item">
+                  <img src="images/ghee6.png" alt="Ghee Product 3" class="img-fluid">
+                  <div class="product-overlay">
+                    <h4>Ghee Products</h4>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+    <!-- Products section  -->
+   
+
+    <section id="products">
+        <div class="slide-container  swiper">
+            <h1 class="text-center section-heading" data-aos="fade-in" data-aos-duration="2000" style="color: rgb(195, 61, 4);">Our Products</h1>
+            <div class="slide-content-products">
+                <div class="card-wrapper swiper-wrapper">
+                    <!-- Product 1 -->
+                    
+                    <div class="card swiper-slide">
+                        <div class="image-content" style="overflow: hidden;">
+                            <span class="overlay purple-bg" > <div class="product purple-bg">
+                                <span class="new bg-warning "><span>H o t</span></span>
+                              </div></span>
+                            <div class="card-image">
+                                <img src="images/ghee1-removebg-preview.png" alt="Desi Ghee" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            
+                            <h2 class="product-name">Desi Ghee</h2>
+                                <h5 class="card-title blink-hard text-warning"> 50 ml - ₹ 50</h5>
+                                
+                            
+                            <a href="https://wa.me/919790264009?text=I%20Need%2050ml%20Desi%20Ghee" target="_blank">
+                                <button class="btn btn-success px-4 my-2">Buy Now</button></a>
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="card swiper-slide bg-purple">
+                        <div class="image-content">
+                            <span class="overlay purple-bg"></span>
+                            <div class="card-image">
+                                <img src="images/ghee5-removebg-preview.png" alt="Honey" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="product-name">Desi Ghee</h2>
+                            <p class="product-description">100 ml - ₹ 98 </p>
+                            <a href="https://wa.me/919790264009?text=I%20Need%20100ml%20Desi%20Ghee" target="_blank">
+                                <button class="btn btn-success px-4 my-2">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay purple-bg"></span>
+                            <div class="card-image">
+                                <img src="images/ghee2-removebg-preview.png" alt="Desi Makhan" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="product-name">Desi Ghee</h2>
+                            <p class="product-discription">
+                                200 ml - ₹ 195 
+                            </p>
+                            <a href="https://wa.me/919790264009?text=I%20Need%20200ml%20Desi%20Ghee "target="_blank">
+                                <button class="btn btn-success px-4 my-2">Buy Now</button></a>
+                        </div>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay purple-bg"></span>
+                            <div class="card-image">
+                                <img src="images/ghee4-removebg-preview.png" alt="Desi Ghee" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="product-name">Desi Ghee</h2>
+                            <p class="product-discription">
+                                ₹ 830/L
+                            </p>
+                            <a href="https://wa.me/919790264009?text=I%20Need%201L%20Desi%20Ghee" target="_blank">
+                                <button class="btn btn-success px-4 my-2">Buy Now</button></a>
+                        </div>
+                    </div>
+                    <!-- Product 5 -->
+                    <div class="card swiper-slide">
+                        <div class="image-content" style="overflow: hidden;">
+                            <span class="overlay purple-bg" > <div class="product purple-bg">
+                                <span class="new bg-warning "><span>H o t</span></span>
+                              </div></span>
+                            <div class="card-image">
+                                <img src="images/ghee3-removebg-preview.png" alt="Desi Ghee" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            
+                            <h2 class="product-name">Desi Ghee</h2>
+                                <h5 class="card-title blink-hard text-warning"> 10 ml - ₹ 10  </h5>
+                                
+                            
+                            <a href="https://wa.me/919790264009?text=I%20Need%2010ml%20Desi%20Ghee" target="_blank">
+                                <button class="btn btn-success px-4 my-2">Buy Now</button></a>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay purple-bg"></span>
+                            <div class="card-image">
+                                <img src="images/ghee7.png" alt="cow ghee" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="product-name">Cow Ghee</h2>
+                            <p class="product-discription">
+                                ₹ 8,200/ Tin
+                            </p>
+                            <a href="https://wa.me/919790264009?text=I%20Need%201tin%20cow%20Ghee" target="_blank">
+                                <button class="btn btn-success px-4 my-2">Buy Now</button></a>
+                        </div>
+                    </div>
+            <div class="swiper-button-next swiper-nav"></div>
+            <div class="swiper-button-prev swiper-nav"></div>
+            <div class="swiper-pagination"></div>
+        </div><div class="text-center"><br>
+            <a href="index.php" class="btn btn-lg btn-success purple-bg">Place Order Now</a><br>
+          </div>
+
+    </section>
+
+
+    <section id="testimonials">
+        <div class="testimonial mySwiper">
+            <h1 class="text-center section-heading " data-aos="fade-in" data-aos-duration="2000">Happy Customers</h1>
+            <div class="testi-content swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img src="images/img1.jpg" alt="" class="image" />
+                    <p>
+                        Uma Ghee is my trusted choice for organic ghee. Its rich flavor and aroma add an
+                        authentic touch to my dishes. Highly recommended
+                    </p>
+
+                    <i class="fa-solid fa-quote-right fa-2xl" style="color: #aaa512;"></i>
+
+                    <div class="details">
+                        <span class="name">Elon Musk</span>
+                        <span class="job">USA</span>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/img2.jpg" alt="" class="image" />
+                    <p>
+                        Uma Ghee has become a staple in my kitchen. Its pure and creamy texture enhances the
+                        taste of my recipes. Love it!
+                    </p>
+
+                    <i class="fa-solid fa-quote-right fa-2xl" style="color: #aaa512;"></i>
+
+                    <div class="details">
+                        <span class="name">Mark</span>
+                        <span class="job">America</span>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/img3.jpg" alt="" class="image" />
+                    <p>
+                        Uma Ghee is pure bliss - creamy, smooth, and perfect for spreading on bread. Try
+                        it once, and you'll be hooked!
+                    </p>
+
+                    <i class="fa-solid fa-quote-right fa-2xl" style="color: #aaa512;"></i>
+
+                    <div class="details">
+                        <span class="name">Jeff Bezos</span>
+                        <span class="job">New Mexico</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+        <div class="wrapper">
+        <div class="row no-gutters mb-5">
+        <div class="col-md-7">
+        <div class="contact-wrap w-100 p-md-5 p-4">
+        <h3 class="mb-4">Contact Us</h3>
+        <div id="form-message-warning" class="mb-4"></div>
+        
+        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+        <div class="row">
+        <div class="col-md-6">
+        <div class="form-group">
+        <label class="label" for="name">Full Name</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="form-group">
+        <label class="label" for="email">Email Address</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <label class="label" for="subject">Subject</label>
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <label class="label" for="#">Message</label>
+        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="submit" value="Send Message" class="btn btn-primary">
+        <div class="submitting"></div>
+        </div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div><br>
+        <div class="col-md-5 d-flex align-items-stretch">
+            <div id="map" style="width:300px; height: 500px;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9849.2900613239!2d77.68019692551917!3d11.360645605998831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba969d6dbdd090d%3A0xcbdce6a9ff6462b5!2sUma%20ghee!5e0!3m2!1sen!2sin!4v1710250949854!5m2!1sen!2sin"
+                  width="1100"
+                  height="400"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-map-marker"></span>
+        </div>
+        <div class="text">
+        <p><span></span> sri uma and co<br>38/1, Sonilhorkcondu Street.
+            Veeropon. Chathiram.
+            <br>Erode-638 004.</p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-phone"></span>
+        </div>
+        <div class="text"><br>
+        <p><span>Phone:</span> <a href="tel://1234567920">+91 9790264009</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-paper-plane"></span>
+        </div>
+        <div class="text"><br>
+            <p><span>Email:</span> <a href="mailto:sriuma4009@gmail.com">sriuma4009@gmail.com</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="dbox w-100 text-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-globe"></span>
+        </div>
+        <div class="text"><br>
+        <p><span>Website:</span> <a href="#">umaghee.com</a></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        </section>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+        <script src="js/main.js"></script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"86328516df3d93a7","version":"2024.2.4","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+        <div class="row bg-black">
+            
+                <footer class="footer text-align"style="font-family:Comic Sans MS;">
+                    
+            <ul class=" col-12 text-center py-3 text-white">
+                <li data-aos="fade-in" data-aos-duration="1000"> <a class="text-decoration-none mx-5 text-white"
+                        href="#">Home</a></li>
+                <li data-aos="fade-in" data-aos-duration="2500"> <a class="text-decoration-none mx-5 text-white "
+                        href="#products">Products</a></li>
+                <li data-aos="fade-in" data-aos-duration="3000"> <a class="text-decoration-none mx-5 text-white"
+                        href="#aboutUs">About-Us</a></li>
+            </ul>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="social-icons float-left">
+                        <p class="mb-0 mt-1 text-white" style="margin-left: 75px">FOLLOW US ON</p>
+                        <a href="http://www.facebook.com" class="fa fa-facebook"style="margin-left: 20px"></a>
+                        <a href="https://twitter.com/Balaji_jebbu" class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/jeya-balaji-800397259/" class="fa fa-linkedin"></a>
+                        <a href="https://www.instagram.com/balaji_jebbu/" class="fa fa-instagram"></a>
+                    </div>
+                    <div class="uma-ghee-contact float-left ml-4">
+                        <p class="mb-0 mt-1 text-white" style="margin-left: 200px";>Uma Ghee | Organic Food Company in Tamil Nadu</p>
+                        <p class="mb-0 mt-1 text-smaller text-white" style="margin-left: 250px">© Copyrights 2024. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- floating button -->
+        <a href="tel:919790264009" class="float bg-warning float-call">
+        <i class="fa fa-phone fa-xl fa-stack-1x fa-inverse my-float"></i>
+        </a>
+        <a href="https://wa.me/919790264009?text=Hellow%20Uma%20Desi%20Ghee,%20i%20need%20some%20product" class="float bg-warning float-chat">
+            <<i class="fa fa-comment fa-xl fa-stack-1x fa-inverse my-float"></i>
+            </a>
+        </footer>
+    <!-- Scripts -->
+    <!-- Animation On slide AOS cdn --> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> // this can we added to script file
+        AOS.init();
+    </script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- swiper local script -->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!-- typed typing script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+        integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+        crossorigin="anonymous"></script>
+
+
+    <!-- My Script-->
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
